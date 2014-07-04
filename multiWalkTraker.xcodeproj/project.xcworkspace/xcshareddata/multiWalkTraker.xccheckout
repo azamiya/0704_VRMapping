@@ -5,48 +5,60 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0B4817C2-681A-45E0-BC0D-B28A7E9359C3</string>
+	<string>6CB8252F-8EB5-45B0-B449-6B73E8275813</string>
 	<key>IDESourceControlProjectName</key>
 	<string>multiWalkTraker</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CB707471-C905-4080-90AC-BAF8295B7F07</key>
-		<string>ssh://r18/r18/multiWalkTraker.git</string>
-		<key>CE411BD3-0246-466D-8AC1-C846D725CB0F</key>
-		<string>https://github.com/fishkingsin/ofxARtoolkitPlus</string>
+		<key>1B51F016-2CCD-4B37-B7CE-F2AFE345CE24</key>
+		<string>ssh://github.com/r18/multiWalkTraker.git</string>
+		<key>4F4180C4-9A9A-4F3A-9A32-424344707540</key>
+		<string>ssh://github.com/fishkingsin/ofxARtoolkitPlus.git</string>
+		<key>E1CB43A6-B026-4186-82D8-0FCAC9E7E3C8</key>
+		<string>ssh://github.com/cdra0624/oF_ARtest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>multiWalkTraker.xcodeproj/project.xcworkspace</string>
+	<string>of_v0.8.1_osx_release/apps/myApps/VRMapping/multiWalkTraker.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CB707471-C905-4080-90AC-BAF8295B7F07</key>
+		<key>1B51F016-2CCD-4B37-B7CE-F2AFE345CE24</key>
 		<string>../..</string>
-		<key>CE411BD3-0246-466D-8AC1-C846D725CB0F</key>
+		<key>4F4180C4-9A9A-4F3A-9A32-424344707540</key>
 		<string>../../../../../addons/ofxARtoolkitPlus</string>
+		<key>E1CB43A6-B026-4186-82D8-0FCAC9E7E3C8</key>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://r18/r18/multiWalkTraker.git</string>
+	<string>ssh://github.com/cdra0624/oF_ARtest.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CB707471-C905-4080-90AC-BAF8295B7F07</string>
+	<string>E1CB43A6-B026-4186-82D8-0FCAC9E7E3C8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CB707471-C905-4080-90AC-BAF8295B7F07</string>
+			<string>E1CB43A6-B026-4186-82D8-0FCAC9E7E3C8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>multiWalkTraker</string>
+			<string>oF_AR</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CE411BD3-0246-466D-8AC1-C846D725CB0F</string>
+			<string>4F4180C4-9A9A-4F3A-9A32-424344707540</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxARtoolkitPlus</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B51F016-2CCD-4B37-B7CE-F2AFE345CE24</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VRMapping</string>
 		</dict>
 	</array>
 </dict>

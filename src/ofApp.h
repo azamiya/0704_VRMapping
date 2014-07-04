@@ -5,6 +5,10 @@
 #include "ofxARToolkitPlus.h"
 
 #include "ofMain.h"
+#include "ofxOsc.h"
+
+#define HOST "localhost"
+#define PORT 6666
 
 // Uncomment this to use a camera instead of a video file
 //#define CAMERA_CONNECTED

@@ -90,6 +90,7 @@
 		1D303144C3CF47730603552A /* vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector.h; path = ../../../addons/ofxARtoolkitPlus/libs/ARToolKitPlus/include/ARToolKitPlus/vector.h; sourceTree = SOURCE_ROOT; };
 		1E95EFD35ED9C5D97F2F015E /* timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = timer.h; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
 		257AC90E397E4604F971151A /* ofxARToolkitPlus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxARToolkitPlus.h; path = ../../../addons/ofxARtoolkitPlus/src/ofxARToolkitPlus.h; sourceTree = SOURCE_ROOT; };
+		2622284E19662C7200E7D166 /* ofxOsc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ofxOsc; sourceTree = "<group>"; };
 		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		29ADDC31C6491D40A0ECB548 /* Camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Camera.h; path = ../../../addons/ofxARtoolkitPlus/libs/ARToolKitPlus/include/ARToolKitPlus/Camera.h; sourceTree = SOURCE_ROOT; };
 		2E411F99E3AB7154484B4F96 /* kmeans_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kmeans_index.h; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
@@ -549,6 +550,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				2622284E19662C7200E7D166 /* ofxOsc */,
 				480A780D8D0308AE4A368801 /* ofxGui */,
 				A0B90D3B0ADB9C1716816714 /* ofxOpenCv */,
 				42D4F4C6700D8F8FF36E032B /* ofxARtoolkitPlus */,
