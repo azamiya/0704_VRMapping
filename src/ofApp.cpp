@@ -4,6 +4,7 @@
 void ofApp::setup(){
 	width = 640;
 	height = 480;
+    sender.setup(HOST, PORT);
 	
 	// Print the markers from the "AllBchThinMarkers.png" file in the data folder
 	#ifdef CAMERA_CONNECTED
@@ -96,6 +97,8 @@ void ofApp::draw(){
 	ofSetHexColor(0x666666);	
 	ofDrawBitmapString("Threshold: " + ofToString(threshold), 650, 20);
 	ofDrawBitmapString("Use the Up/Down keys to adjust the threshold", 650, 40);
+    ofDrawBitmapString("press A to send osc message [hello adaniya!<time>]", 650, 60);
+
 
 	// ARTK draw
 	// An easy was to see what is going on
@@ -189,6 +192,15 @@ void ofApp::keyPressed(int key){
 		vidGrabber.videoSettings();
 	}
 	#endif
+    if(key == 'a' || key == 'A'){
+        ofxOscMessage m;
+		m.setAddress("/test");
+		//m.addIntArg(1);
+		//m.addFloatArg(3.5f);
+		m.addStringArg("hello adaniya!");
+		m.addFloatArg(ofGetElapsedTimef());
+		sender.sendMessage(m);
+    }
 }
 
 //--------------------------------------------------------------

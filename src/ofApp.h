@@ -11,7 +11,7 @@
 #define PORT 6666
 
 // Uncomment this to use a camera instead of a video file
-//#define CAMERA_CONNECTED
+#define CAMERA_CONNECTED
 
 class ofApp : public ofBaseApp{
 
@@ -51,6 +51,9 @@ class ofApp : public ofBaseApp{
 		ofImage displayImage;
 		/* The four corners of the image */
 		vector<ofPoint> displayImageCorners;
+    
+        ofxOscSender sender;
+
 	
 };
 
