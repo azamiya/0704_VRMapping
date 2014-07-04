@@ -1,4 +1,4 @@
 multiWalkTraker
 ===============
-##Install
-そのうちかくかも
+##140704
+ofxosc addonを追加
